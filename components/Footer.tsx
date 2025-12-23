@@ -1,8 +1,11 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
+import { products } from "@/types/products";
 
 export default function Footer() {
   return (
@@ -32,36 +35,16 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Our Models</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  SL Model
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  SI Model
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  BMW Model
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  OLA Model
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  Vespa 3
-                </Link>
-              </li>
-              <li>
-                <Link href="#products" className="hover:text-primary-light transition-colors">
-                  New Model
-                </Link>
-              </li>
+              {products.map((product) => (
+                <li key={product.id}>
+                  <Link 
+                    href="#products" 
+                    className="hover:text-primary-light transition-colors"
+                  >
+                    {product.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
