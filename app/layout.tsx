@@ -93,7 +93,7 @@ export const metadata: Metadata = {
   other: {
     "contact:phone_number": "+918077660863",
     "contact:email": "greenova95@gmail.com",
-    "contact:address": "Chandrapal Kheri, Uttar Pradesh, India",
+    "contact:address": "W7HV+4F6, Chandrapal Kheri, Uttar Pradesh 247342, India",
   },
 };
 
@@ -118,8 +118,8 @@ export default function RootLayout({
         <link rel="canonical" href={siteUrl} />
         <meta name="geo.region" content="IN-UP" />
         <meta name="geo.placename" content="Chandrapal Kheri" />
-        <meta name="geo.position" content="27.5;80.5" />
-        <meta name="ICBM" content="27.5, 80.5" />
+        <meta name="geo.position" content="29.935200;77.293404" />
+        <meta name="ICBM" content="29.935200, 77.293404" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
         <meta name="distribution" content="global" />

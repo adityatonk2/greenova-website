@@ -9,9 +9,10 @@ export default function StructuredData() {
     description: "Leading electric two-wheeler manufacturer and dealer in Uttar Pradesh, India. Premium EV scooters with 1000W-1200W motors.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Chandrapal Kheri",
+      streetAddress: "W7HV+4F6, Chandrapal Kheri",
       addressLocality: "Chandrapal Kheri",
       addressRegion: "Uttar Pradesh",
+      postalCode: "247342",
       addressCountry: "IN",
     },
     contactPoint: {
@@ -36,16 +37,16 @@ export default function StructuredData() {
     description: "Premium electric two-wheeler manufacturer and dealer in Chandrapal Kheri, Uttar Pradesh.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Chandrapal Kheri",
+      streetAddress: "W7HV+4F6, Chandrapal Kheri",
       addressLocality: "Chandrapal Kheri",
       addressRegion: "Uttar Pradesh",
-      postalCode: "",
+      postalCode: "247342",
       addressCountry: "IN",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "27.5",
-      longitude: "80.5",
+      latitude: "29.935200",
+      longitude: "77.293404",
     },
     url: "https://greenova-website.vercel.app",
     telephone: "+91-80-77660863",

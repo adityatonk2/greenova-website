@@ -45,8 +45,8 @@ export default function LocationSection() {
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Address</div>
                   <div className="text-gray-600">
-                    Chandrapal Kheri,<br />
-                    Uttar Pradesh, India
+                    W7HV+4F6, Chandrapal Kheri,<br />
+                    Uttar Pradesh 247342, India
                   </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ export default function LocationSection() {
           <div className="lg:sticky lg:top-24">
             <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg h-96 border border-gray-200">
               <iframe
-                src="https://www.google.com/maps?q=Chandrapal+Kheri,+Uttar+Pradesh,+India&output=embed"
+                src="https://www.google.com/maps?q=29.935200,77.293404&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -115,7 +115,7 @@ export default function LocationSection() {
             </div>
             <div className="mt-4 text-center">
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Chandrapal+Kheri+Uttar+Pradesh"
+                href="https://maps.google.com/?q=29.935200,77.293404"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary-dark font-medium inline-flex items-center space-x-2"

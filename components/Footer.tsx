@@ -11,13 +11,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <Image
-              src="/greenova-logo.png"
-              alt="Greenova Manufacturing Hub"
-              width={200}
-              height={70}
-              className="h-14 w-auto object-contain mb-4 brightness-0 invert"
-            />
+            <div className="inline-block bg-white rounded-lg p-3 mb-4">
+              <Image
+                src="/greenova-logo.png"
+                alt="Greenova Manufacturing Hub"
+                width={200}
+                height={70}
+                className="h-12 w-auto object-contain"
+              />
+            </div>
             <p className="text-sm text-gray-400 mb-4">
               Manufacturing Hub
             </p>
@@ -97,8 +99,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <FiMapPin className="w-5 h-5 text-primary-light mt-0.5 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Chandrapal Kheri,<br />
-                  Uttar Pradesh, India
+                  W7HV+4F6, Chandrapal Kheri,<br />
+                  Uttar Pradesh 247342, India
                 </span>
               </li>
               <li className="flex items-center space-x-3">

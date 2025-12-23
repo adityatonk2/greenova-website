@@ -196,6 +196,6 @@ export const products: Product[] = [
     tyre: " 90/90-12 ",
     modelDescription:
       "High-performance design with superior stopping power and premium road grip for smooth power delivery.",
-    image: "/products/102.jpeg",
+    image: "/products/102.png",
   },
 ];
