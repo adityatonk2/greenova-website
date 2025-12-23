@@ -87,7 +87,7 @@ export default function ContactSection() {
                     onChange={(e) => setFormData({ ...formData, requirement: e.target.value })}
                     rows={4}
                     className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
-                    placeholder="Tell us about your requirement (e.g., interested in DI Model, dealership inquiry, bulk order...)"
+                    placeholder="Tell us about your requirement (e.g., interested in SL Model, dealership inquiry, bulk order...)"
                   />
                 </div>
               </div>

@@ -46,16 +46,15 @@ export default function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
-            Powering the Future of
+            Greenova
             <span className="block text-primary-light mt-2">
-              Two-Wheeler Electric Mobility
+              Step Into a Cleaner Future
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Greenova Manufacturing Hub delivers premium EV scooters with cutting-edge technology, 
-            manufacturing excellence, and comprehensive dealer support across Uttar Pradesh and India.
+            Greenova is a next-generation manufacturing hub dedicated to building reliable, affordable, and sustainable 2-wheeler electric vehicles. Driven by innovation and responsibility, we are shaping the future of mobility by delivering eco-friendly solutions designed for today&apos;s roads and tomorrow&apos;s world.
           </p>
 
           {/* CTAs */}

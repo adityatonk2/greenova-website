@@ -1,36 +1,31 @@
 import React from "react";
-import { FiAward, FiSettings, FiUsers, FiDollarSign, FiTool, FiZap } from "react-icons/fi";
+import { FiZap, FiSettings, FiDollarSign, FiTool, FiMapPin } from "react-icons/fi";
 
 const features = [
   {
-    icon: FiAward,
-    title: "Premium EV Models",
-    description: "7+ premium models with 1000W-1200W motors, advanced controllers, and superior build quality.",
+    icon: FiZap,
+    title: "Clean & Sustainable Mobility",
+    description: "Zero emissions for a greener tomorrow.",
   },
   {
     icon: FiSettings,
-    title: "Manufacturing Expertise",
-    description: "State-of-the-art manufacturing facility with quality control and precision engineering.",
-  },
-  {
-    icon: FiUsers,
-    title: "Dealer Support",
-    description: "Comprehensive dealer and distributor support with competitive pricing and marketing assistance.",
+    title: "Strong Manufacturing Capabilities",
+    description: "In-house assembly with strict quality standards.",
   },
   {
     icon: FiDollarSign,
-    title: "Affordable Pricing",
-    description: "Competitive pricing without compromising on quality, making EVs accessible to everyone.",
+    title: "Affordable & Practical",
+    description: "Designed to reduce running costs and dependency on fuel.",
   },
   {
     icon: FiTool,
-    title: "After-Sales Service",
-    description: "Reliable after-sales support and service network to keep your EV running smoothly.",
+    title: "Reliable Performance",
+    description: "Built for durability, safety, and everyday use.",
   },
   {
-    icon: FiZap,
-    title: "Sustainable Mobility",
-    description: "100% electric, zero emissions, contributing to a cleaner and greener future.",
+    icon: FiMapPin,
+    title: "Made for India",
+    description: "Tailored for Indian consumers, climate, and infrastructure.",
   },
 ];
 
@@ -41,12 +36,9 @@ export default function WhyChoose() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose Greenova?
+            Why Greenova
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Trusted by customers, dealers, and fleet operators across India
-          </p>
         </div>
 
         {/* Features Grid */}

@@ -85,7 +85,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Greenova Electric Two-Wheeler Scooters",
-    description: "Premium electric two-wheeler scooters with 1000W-1200W motors, available in multiple models including DI Model, SI Model, BMW Model, OLA Model, Vespa 3, and more.",
+    description: "Premium electric two-wheeler scooters with 1000W-1200W motors, available in multiple models including SL Model, SI Model, BMW Model, OLA Model, Vespa 3, and more.",
     brand: {
       "@type": "Brand",
       name: "Greenova",

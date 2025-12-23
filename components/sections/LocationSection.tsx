@@ -138,7 +138,7 @@ export default function LocationSection() {
             with advanced features like 1000W-1200W motors, 60/72V smart controllers, and superior build quality.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Our <strong>EV manufacturing hub</strong> in Chandrapal Kheri produces multiple models including DI Model, 
+            Our <strong>EV manufacturing hub</strong> in Chandrapal Kheri produces multiple models including SL Model, 
             SI Model, BMW Model, OLA Model, Vespa 3, and more. We offer comprehensive dealer support, bulk orders 
             for fleet operators, and direct sales to customers. Contact us for dealership opportunities or to 
             experience our premium EV scooters.

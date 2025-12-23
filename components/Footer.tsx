@@ -32,7 +32,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="#products" className="hover:text-primary-light transition-colors">
-                  DI Model
+                  SL Model
                 </Link>
               </li>
               <li>
@@ -53,6 +53,11 @@ export default function Footer() {
               <li>
                 <Link href="#products" className="hover:text-primary-light transition-colors">
                   Vespa 3
+                </Link>
+              </li>
+              <li>
+                <Link href="#products" className="hover:text-primary-light transition-colors">
+                  New Model
                 </Link>
               </li>
             </ul>
