@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 import { products } from "@/types/products";
 
 export default function Footer() {
@@ -26,9 +26,33 @@ export default function Footer() {
             <p className="text-sm text-gray-400 mb-4">
               Manufacturing Hub
             </p>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-400 mb-4">
               Powering the future of two-wheeler electric mobility in India.
             </p>
+            {/* Social Media */}
+            <div className="mt-4">
+              <h4 className="text-white font-semibold mb-3 text-sm">Follow Us</h4>
+              <div className="flex space-x-4">
+                <a
+                  href="https://www.instagram.com/greennova.ev.manufacturer?igsh=MXF0ZGN6MHQxc2R1Yg=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-primary-light transition-colors"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1FtpermAx7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-primary-light transition-colors"
+                  aria-label="Facebook"
+                >
+                  <FaFacebook className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Products */}
